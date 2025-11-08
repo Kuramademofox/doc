@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Patient Portal</title>
+    <link rel="stylesheet" href="patient.css" />
+    <script src="../common/data.js"></script>
+  </head>
+  <body>
+    <h1>Patient Portal (Alice)</h1>
+    <div class="section">
+      <h2>Book appointment</h2>
+      <select id="doctor-select"></select>
+      <input type="datetime-local" id="datetime" />
+      <button onclick="book()">Book</button>
+    </div>
+    <div class="section">
+      <h2>Your Appointments</h2>
+      <ul id="appt-list"></ul>
+    </div>
+    <div class="section">
+      <h2>Prescriptions</h2>
+      <ul id="presc-list"></ul>
+    </div>
+    <div class="section">
+      <h2>Pharmacy Contact</h2>
+      <div id="pharma-contact"></div>
+    </div>
+    <div class="section">
+      <h2>Caretaker (if assigned)</h2>
+      <div id="caretaker-info"></div>
+    </div>
+    <script src="patient.js"></script>
+  </body>
+</html>
