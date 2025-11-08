@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #faeee2;
+  margin: 0;
+  padding: 2rem;
+}
+h1 {
+  color: #fa9500;
+}
+.section {
+  background: #fff;
+  margin-bottom: 1.2rem;
+  padding: 1.2rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #ddd;
+}
+h2 {
+  color: #00807d;
+  margin-bottom: 0.7rem;
+}
+.done {
+  color: #00807d;
+  font-weight: bold;
+}
